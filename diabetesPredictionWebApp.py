@@ -9,9 +9,10 @@ import pickle
 import streamlit as st
 from PIL import Image
 
-# Load the trained model
-loaded_model = pickle.load(open('/mount/src/diabetesprediction/trained_model.sav', 'rb'))
 
+
+# Load the trained model
+loaded_model = pickle.load(open(r'C:\Users\SHIVI\Downloads\Ml\trained_model.sav', 'rb'))
 
 
 
